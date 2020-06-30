@@ -1,0 +1,112 @@
+.gradient {
+  background: #92aad7;
+  background: linear-gradient(to bottom, #a5d8f4 0%, #92aad7 100%);
+}
+
+.navbar {
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  margin: inherit;
+  padding: inherit;
+  font-weight: bold;
+  max-width: 60%;
+}
+
+.navbar-brand-image {
+  max-width: 100%;
+  max-height: 52px;
+}
+
+.navbar h2 {
+  font-size: 14px;
+  margin: inherit;
+  padding: inherit;
+  text-transform: uppercase;
+  color: white;
+  max-width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .navbar-brand {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .navbar h2 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.jumbotron.gradient {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-brand.navbar-brand {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand.navbar-brand:hover {
+  color: #777;
+}
+
+.navbar-brand.navbar-brand:focus {
+  color: white;
+}
+
+.lesson {
+  margin: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: scroll;
+}
+
+.lesson p {
+  clear: both;
+}
+
+.lesson-links {
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+
+.lesson-title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.doggos {
+  width: 100%;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
