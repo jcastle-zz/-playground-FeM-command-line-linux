@@ -144,3 +144,11 @@
 - 130: You ended the program with CTRL+C
 - 137: You ended the program with SIGKILL
 - 255: Out-of-bounds, you tried to exit with a code larger than 255
+
+## WGET
+
+- Two ways to get a remote file - WGET & Curl
+- Network version of cp (copy)
+- Example: wget https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
+
+## Curl
