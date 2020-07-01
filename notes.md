@@ -149,6 +149,37 @@
 
 - Two ways to get a remote file - WGET & Curl
 - Network version of cp (copy)
+- One thing wget does that curl cannot do is recursive downloads
 - Example: wget https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
 
 ## Curl
+
+- Will hit a remote endpoint
+  _go back to the videos_
+
+## Package Management
+
+- APT - Advanced Package Tool
+- DPKG - installed because Ubuntu is Debian based
+- Aptitude - gui interface for applications
+- sudo apt autoremove - will remove unused dependencies
+- sudo apt update - updates the list of available packages apt uses
+- apt list - everything installed
+- apt list --upgradable - everything with an update available
+- sudo apt upgrade - updates all your packages to their latest available versions
+- sudo apt full-upgrade - basically autoremove and upgrade together
+- no package manager for apt - can go to https://www.apt-browse.org/ to review packages before install
+
+## Shell Scripts
+
+- scripts for the shell
+  _go back to the videos_
+
+## Cron
+
+- for scheduling events on a recurring basis
+  _go back to the videos_
+
+## Customize the shell
+
+_go back to the videos_
